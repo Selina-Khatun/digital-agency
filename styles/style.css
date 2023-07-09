@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.text-blue{
+    color: hwb(225 18% 43%);
+    /* display: inline;
+   padding-bottom: 5px; */
+}
+.logo-container{
+   display: flex;
+   align-items: center;
+   gap: 10px;
+}
+.nav-container{
+    display: flex;
+    justify-content: space-around;
+    background-color: gray;
+    align-items: center;
+    padding: 10px;
+
+}
+.menu{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+    font-size: 17px;
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+
+}
